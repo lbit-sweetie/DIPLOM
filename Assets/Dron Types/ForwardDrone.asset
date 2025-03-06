@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2438916f41bdca84693b0db5b4d0df90, type: 3}
+  m_Name: ForwardDrone
+  m_EditorClassIdentifier: 
+  movementType: 0
+  maxSpeed: 1
+  acceleration: 2
+  rotationSpeed: 5
+  weight: 1
+  silhouetteScale: {x: 1, y: 1, z: 1}
+  defaultMaterial: {fileID: 0}
+  zigZagAmplitude: 0
+  zigZagFrequency: 0

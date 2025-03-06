@@ -1,11 +1,10 @@
 using UnityEngine;
 
-// Пример конкретной реализации дрона
 public class Quadcopter : DroneBase
 {
     [Header("Quadcopter Specific")]
-    [SerializeField] private float rotorSpeed = 1000f;
     [SerializeField] private Transform[] rotors;
+    [SerializeField] private Vector3 directionRotors;
 
     protected override void Awake()
     {
@@ -23,7 +22,7 @@ public class Quadcopter : DroneBase
     {
         foreach (var rotor in rotors)
         {
-            rotor.Rotate(Vector3.up, rotorSpeed * Time.deltaTime);
+            rotor.Rotate(directionRotors, droneData.maxSpeed * 1000 * Time.deltaTime);
         }
     }
 }
