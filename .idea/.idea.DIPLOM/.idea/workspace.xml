@@ -20,39 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756e72f1-dad9-4140-ba33-5423d1aa824c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Drone.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PrivateStack_4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_PublicStack_4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_StateStack_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_StateStack_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_StateStack_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Drone/uploads_files_4599666_Drone.fbx_StateStack_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DroneBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DroneBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DroneData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DroneData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IFlightBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IFlightBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Quadcopter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Quadcopter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/DroneBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/DroneBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/DroneData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/DroneData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UsualDrone.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UsualDrone.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +42,8 @@
         <option value="$PROJECT_DIR$/Assets/DroneData.cs" />
         <option value="$PROJECT_DIR$/Assets/DroneBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Quadcopter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/DroneData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/DroneBase.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741265752296</updated>
-      <workItem from="1741265757909" duration="5779000" />
+      <workItem from="1741265757909" duration="6662000" />
+      <workItem from="1741347897262" duration="2326000" />
     </task>
     <servers />
   </component>
@@ -127,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

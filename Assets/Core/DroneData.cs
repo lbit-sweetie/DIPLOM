@@ -10,8 +10,6 @@ public class DroneData : ScriptableObject
     public float acceleration = 2f;
     public float rotationSpeed = 5f;
     public float weight = 1f;
-    public Vector3 silhouetteScale = Vector3.one;
-    public Material defaultMaterial;
 
     [Header("ZigZag Settings")] public float zigZagAmplitude = 2f; // Амплитуда отклонений
     public float zigZagFrequency = 1f; // Частота отклонений

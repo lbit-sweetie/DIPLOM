@@ -7,7 +7,6 @@ public abstract class DroneBase : MonoBehaviour
     protected Rigidbody rb;
 
     [SerializeField] protected Collider droneCollider;
-    [SerializeField] protected Renderer droneRenderer;
 
     [Header("Drone Configuration")] [SerializeField]
     protected DroneData droneData;
@@ -18,7 +17,6 @@ public abstract class DroneBase : MonoBehaviour
     {
         if (!rb) rb = GetComponent<Rigidbody>();
         if (!droneCollider) droneCollider = GetComponent<Collider>();
-        if (!droneRenderer) droneRenderer = GetComponent<Renderer>();
 
         flightBehavior = new ForwardFlight();
     }
@@ -31,12 +29,6 @@ public abstract class DroneBase : MonoBehaviour
     private void ApplyDroneData()
     {
         if (droneData == null) return;
-
-        transform.localScale = droneData.silhouetteScale;
-        if (droneRenderer && droneData.defaultMaterial)
-        {
-            droneRenderer.material = droneData.defaultMaterial;
-        }
 
         rb.mass = droneData.weight;
     }
@@ -59,15 +51,6 @@ public abstract class DroneBase : MonoBehaviour
     }
 }
 
-public class HoverFlight : IFlightBehavior
-{
-    public void UpdateFlight(DroneBase drone, Rigidbody rb, DroneData data)
-    {
-        Vector3 targetVelocity = Vector3.up * data.maxSpeed;
-        rb.velocity = Vector3.Lerp(rb.velocity, targetVelocity, data.acceleration * Time.fixedDeltaTime);
-    }
-}
-
 public class ForwardFlight : IFlightBehavior
 {
     private float _zigZagTimer = 0f;
@@ -82,6 +65,7 @@ public class ForwardFlight : IFlightBehavior
         switch (data.movementType)
         {
             case DroneMovementType.Straight:
+                targetVelocity = drone.transform.forward * data.maxSpeed;
                 break;
 
             case DroneMovementType.ZigZag:
@@ -91,6 +75,17 @@ public class ForwardFlight : IFlightBehavior
                 break;
 
             case DroneMovementType.CustomPattern:
+                break;
+
+            case DroneMovementType.Circle:
+                _zigZagTimer += Time.fixedDeltaTime;
+                float radius = 5f;
+                Vector3 circleOffset = new Vector3(
+                    Mathf.Cos(_zigZagTimer) * radius,
+                    0,
+                    Mathf.Sin(_zigZagTimer) * radius
+                );
+                targetVelocity += circleOffset;
                 break;
         }
 
