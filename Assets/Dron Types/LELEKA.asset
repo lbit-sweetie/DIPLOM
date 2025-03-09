@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: LELEKA
   m_EditorClassIdentifier: 
   movementType: 0
-  maxSpeed: 1
+  maxSpeed: 2
   acceleration: 2
   rotationSpeed: 5
   weight: 1
-  silhouetteScale: {x: 1, y: 1, z: 1}
   zigZagAmplitude: 2
   zigZagFrequency: 1

@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2438916f41bdca84693b0db5b4d0df90, type: 3}
   m_Name: ForwardDrone
   m_EditorClassIdentifier: 
-  movementType: 0
-  maxSpeed: 1
+  movementType: 1
+  maxSpeed: 2
   acceleration: 2
   rotationSpeed: 5
   weight: 1
-  silhouetteScale: {x: 1, y: 1, z: 1}
-  defaultMaterial: {fileID: 0}
-  zigZagAmplitude: 0
-  zigZagFrequency: 0
+  zigZagAmplitude: 3
+  zigZagFrequency: 2

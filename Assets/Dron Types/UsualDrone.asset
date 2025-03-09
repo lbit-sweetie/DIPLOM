@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: UsualDrone
   m_EditorClassIdentifier: Assembly-CSharp::DroneData
   movementType: 3
-  maxSpeed: 1
+  maxSpeed: 2
   acceleration: 5
   rotationSpeed: 5
   weight: 1
-  silhouetteScale: {x: 1, y: 1, z: 1}
-  defaultMaterial: {fileID: 0}
-  zigZagAmplitude: 5
+  zigZagAmplitude: 9.59
   zigZagFrequency: 3
