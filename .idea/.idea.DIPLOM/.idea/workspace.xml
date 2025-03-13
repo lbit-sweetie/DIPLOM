@@ -20,11 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756e72f1-dad9-4140-ba33-5423d1aa824c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIPLOM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/DroneBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/DroneBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/DroneData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/DroneData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Quadcopter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Quadcopter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,7 @@
         <option value="$PROJECT_DIR$/Assets/DroneBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Quadcopter.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/DroneData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Quadcopter.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/DroneBase.cs" />
       </list>
     </option>
@@ -87,6 +95,7 @@
       <updated>1741265752296</updated>
       <workItem from="1741265757909" duration="6662000" />
       <workItem from="1741347897262" duration="2326000" />
+      <workItem from="1741789494552" duration="2822000" />
     </task>
     <servers />
   </component>

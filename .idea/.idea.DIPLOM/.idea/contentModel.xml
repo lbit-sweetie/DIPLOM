@@ -12,6 +12,14 @@
           <e p="Quadcopter.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
         </e>
+        <e p="TerrainSampleAssets" t="Include">
+          <e p="ShaderGraphs" t="Include">
+            <e p="CustomFunctions" t="Include">
+              <e p="CustomLighting.hlsl" t="Include" />
+            </e>
+          </e>
+          <e p="ThirdPartyNotices.txt" t="Include" />
+        </e>
       </e>
       <e p="DIPLOM.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

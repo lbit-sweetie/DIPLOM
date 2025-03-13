@@ -5,49 +5,34 @@ public abstract class DroneBase : MonoBehaviour
 {
     [Header("Drone Components")] [SerializeField]
     protected Rigidbody rb;
-
     [SerializeField] protected Collider droneCollider;
-
     [Header("Drone Configuration")] [SerializeField]
     protected DroneData droneData;
-
     protected IFlightBehavior flightBehavior;
-
     protected virtual void Awake()
     {
         if (!rb) rb = GetComponent<Rigidbody>();
         if (!droneCollider) droneCollider = GetComponent<Collider>();
-
         flightBehavior = new ForwardFlight();
     }
-
     protected virtual void Start()
     {
         ApplyDroneData();
     }
-
     private void ApplyDroneData()
     {
         if (droneData == null) return;
-
         rb.mass = droneData.weight;
     }
-
     protected virtual void FixedUpdate()
     {
         if (flightBehavior != null)
-        {
             flightBehavior.UpdateFlight(this, rb, droneData);
-        }
     }
-
-    // Метод для изменения типа движения
     public void SetMovementType(DroneMovementType newType)
     {
         if (droneData != null)
-        {
             droneData.movementType = newType;
-        }
     }
 }
 
@@ -55,13 +40,10 @@ public class ForwardFlight : IFlightBehavior
 {
     private float _zigZagTimer = 0f;
     private float _targetHeight;
-
     public void UpdateFlight(DroneBase drone, Rigidbody rb, DroneData data)
     {
         Vector3 targetVelocity = drone.transform.forward * data.maxSpeed;
-
         MaintainHeight(drone, rb, data);
-
         switch (data.movementType)
         {
             case DroneMovementType.Straight:
@@ -88,7 +70,6 @@ public class ForwardFlight : IFlightBehavior
                 targetVelocity += circleOffset;
                 break;
         }
-
         rb.velocity = Vector3.Lerp(rb.velocity, targetVelocity, data.acceleration * Time.fixedDeltaTime);
         rb.angularVelocity = Vector3.Lerp(rb.angularVelocity, Vector3.zero, data.rotationSpeed * Time.fixedDeltaTime);
     }
